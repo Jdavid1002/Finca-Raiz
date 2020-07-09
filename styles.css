@@ -1,0 +1,91 @@
+.navbar-options-none{
+    transform: translateX(-3000px);
+    position: absolute;
+}
+
+.navbar-options-none-2{
+    transform: translateX(-7%);
+    transition: 1000ms;
+    width: 100%;
+}
+
+.first-banner{
+    background-image: url(/img/building-1080592_1920.jpg);
+    background-size: cover;
+    width: 100%;
+    height:750px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.content-first-banner{
+    padding-left: 15% ;
+}
+
+
+.buy-box{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2;
+}
+
+
+.buy-box-title{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.buy-card-img{
+    height: 240px;
+}
+
+.register-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.register-title , .register-text , .register-password , .register-Email , .register-User, .register-btn {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.Membresia{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 575px){
+.navbar-options{
+    display: none;
+}
+
+}
+
+@media (min-width: 575px){
+    .navbar-options{
+    display: none;
+    }
+}
+
+@media (min-width: 768px){
+    .navbar-options{
+        display: block;
+    }
+}
+
+@media (min-width: 992px){
+    .navbar-options{
+        display: block;
+    }
+
+}
+@media (min-width: 1200px){
+    .navbar-options{
+        display: block;
+    }
+
+}
