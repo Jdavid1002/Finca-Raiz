@@ -42,6 +42,19 @@
     height: 240px;
 }
 
+.register-img-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 700px;
+}
+
+.register-img{
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/house-4780574_1920.jpg);
+    background-size: cover;
+}
+
 .register-box{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
