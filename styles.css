@@ -71,34 +71,5 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
-@media (max-width: 575px){
-.navbar-options{
-    display: none;
-}
 
-}
 
-@media (min-width: 575px){
-    .navbar-options{
-    display: none;
-    }
-}
-
-@media (min-width: 768px){
-    .navbar-options{
-        display: block;
-    }
-}
-
-@media (min-width: 992px){
-    .navbar-options{
-        display: block;
-    }
-
-}
-@media (min-width: 1200px){
-    .navbar-options{
-        display: block;
-    }
-
-}
