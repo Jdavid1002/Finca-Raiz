@@ -10,7 +10,7 @@
 }
 
 .first-banner{
-    background-image: url(/img/building-1080592_1920.JPG);
+    background-image: url(img/building-1080592_1920.JPG);
     background-size: cover;
     width: 100%;
     height:750px;
@@ -51,7 +51,7 @@
 .register-img{
     width: 100%;
     height: 100%;
-    background-image: url(/img/house-4780574_1920.jpg);
+    background-image: url(img/house-4780574_1920.jpg);
     background-size: cover;
 }
 
